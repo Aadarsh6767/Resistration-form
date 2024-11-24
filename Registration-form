@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="will">
+    <form action="get">
+        <h1>Register</h1>
+        <h2>Create your account. It's free and only takes a minute.</h2>    
+        <div class="input-box">
+            <input type="text" placeholder="First Name" required id="connect">
+            <input type="text" placeholder="Last Name" required><br><br>
+        </div>
+        <div class="line">
+            <input type="id" placeholder="Email"required><br><br>
+            <input type="text" placeholder="Password"required><br><br>
+            <input type="text" placeholder="Confirm Password"required><br><br>
+        </div>
+        </form>
+        <label for="check"><input type="checkbox" class="check">I accept the <span class="unique">
+             Terms of Use</span> &<span class="unique"> Privacy Policy</span></label><br><br>
+             <div id="myfile">
+             <button  type="submit" class="btn" id="data" onclick="SubmitEvent" >Register Now</button></div>
+    </form>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
+
+
+css is started from there
+
+
+
+body{
+display: flex;
+justify-content: center ;
+align-items: center;
+min-height: 100vh;
+}.will h1{
+    text-align: center;
+    font-size: 30px;
+font-display: none;
+font-weight: 35;
+font-style:initial;
+align-items: center;
+font-family: sans-serif;
+}
+.will h2{
+text-align: center;
+font-weight: 40;
+font-size: 20px;
+}
+.will.input-box{
+width: 420px;
+}
+.will.line{
+    font-size: 10px;
+border-color: blue;
+margin-block: 50px;
+height: 50px;
+width:full;
+padding:  full;
+border:solid;
+border-radius: 25px;
+}
+#data{
+background-color: green;
+color: white;
+border: 1px;
+width: 80%;
+height: 20px;
+}
+.unique{
+color: rgb(35, 164, 35);
+}
+
+
+
+
+
